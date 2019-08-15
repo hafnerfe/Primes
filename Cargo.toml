@@ -1,0 +1,9 @@
+[package]
+name = "Primes"
+version = "0.1.0"
+authors = ["hafnerfe <felixhafner2161997@googlemail.com>"]
+edition = "2018"
+
+[dependencies]
+
+rand = "0.3.14"

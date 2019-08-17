@@ -1,8 +1,11 @@
+// Module for generating big primes (only up to 64 bits long)
+// Includes Miller-Rabin primality test (simplified version)
+// TODO: get rid of casting
+
 use rand::Rng;
-// TODO: get rid of casting.
 
 fn main() {
- print_primes_range(50, 100);
+ print_primes_range(9500, 10000);
  println!("{} is a big prime", get_big_prime(61, 100));
 
 }
